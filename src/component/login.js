@@ -52,8 +52,8 @@ function Login(){
 						<input type="password" className="form-control" placeholder="password"/>
 					</div>
 					<div className="form-group">
-						<input type="submit" value="Login" className="btn float-right login_btn"/>
-                        <button onClick={handleSubmit(onSubmit)}>Submit</button>
+						<input type="submit" value="Login" className="btn float-right login_btn" onClick={handleSubmit(onSubmit)}/>
+                       
 					</div>
 				</form>
 			</div>
