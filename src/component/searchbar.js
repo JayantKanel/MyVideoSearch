@@ -60,10 +60,10 @@ function Search() {
     <div className="body">
        
       <form onSubmit={handleSubmit(onSubmit)}>
-        <div class="input-group bar">
           <div className="logo">
-              Logo
+              Welcome {localStorage.getItem('user')} !!
           </div>
+        <div class="input-group bar">
           <input
             type="search"
             className="form-control rounded"
